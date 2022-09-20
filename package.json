@@ -1,0 +1,19 @@
+{
+  "name": "@devSwapt/deskgap",
+  "version": "0.0.1",
+  "types": "deskgap.d.ts",
+  "author": "Swarup Banerjee",
+  "license": "MIT",
+  "description": "Build desktop apps using Node.js and the system's WebView",
+  "homepage": "https://deskgap.com/",
+  "repository": "github:devSwapt/deskgap",
+  "bin": {
+    "deskgap": "cli.js"
+  },
+  "dependencies": {
+    "decompress": "^4.2.0",
+    "fs-extra": "^7.0.1",
+    "nugget": "^2.0.1",
+    "@types/node": "^12.12.14"
+  }
+}
